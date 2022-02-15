@@ -1,0 +1,12 @@
+@extends('layouts.admin')
+
+@section('title')Статьи@endsection
+
+@section('main_content')
+            Route::middleware('web')
+                ->namespace($this->namespace)
+                ->group(base_path('routes/web.php'));
+            Route::middleware('web')
+                ->namespace($this->names
+
+@endsection
